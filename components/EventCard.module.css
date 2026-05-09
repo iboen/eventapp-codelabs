@@ -1,0 +1,105 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-surface);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-level-1);
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-level-2);
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.statusOverlay {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 1;
+}
+
+.content {
+  padding: var(--spacing-lg);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.typeWrapper {
+  margin-bottom: var(--spacing-sm);
+}
+
+.title {
+  font-family: var(--font-headline);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-on-surface);
+  margin-bottom: var(--spacing-md);
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.meta {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+  margin-bottom: var(--spacing-lg);
+  flex-grow: 1;
+}
+
+.metaItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: var(--color-on-surface-variant);
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  color: var(--color-outline);
+}
+
+.footer {
+  border-top: 1px solid var(--color-outline-variant);
+  padding-top: var(--spacing-md);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.viewDetails {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--color-primary);
+}
+
+.arrowIcon {
+  width: 16px;
+  height: 16px;
+  color: var(--color-primary);
+  transition: transform 0.2s ease;
+}
+
+.card:hover .arrowIcon {
+  transform: translateX(4px);
+}

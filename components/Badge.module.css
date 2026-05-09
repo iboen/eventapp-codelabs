@@ -1,0 +1,61 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  font-size: 12px;
+  font-weight: 600;
+  font-family: var(--font-label);
+  line-height: 1;
+  white-space: nowrap;
+  text-transform: capitalize;
+}
+
+.primary {
+  background-color: var(--color-primary-container);
+  color: var(--color-on-primary-container);
+}
+
+.workshop {
+  background-color: rgba(66, 133, 244, 0.1);
+  color: #1a73e8;
+}
+
+.talk {
+  background-color: rgba(234, 67, 53, 0.1);
+  color: #d93025;
+}
+
+.online {
+  background-color: rgba(52, 168, 83, 0.1);
+  color: #188038;
+}
+
+.open {
+  background-color: #fce8b2; /* Google Yellow background for attention */
+  color: #3c4043;
+  border-radius: var(--radius-xs);
+  padding: 4px 8px;
+}
+
+/* Designing status badges specifically as shown in screenshot */
+.open {
+  background-color: #fef7e0;
+  color: #b06000;
+  font-weight: 700;
+  border: 1px solid #f9ab00;
+}
+
+.waitlist {
+  background-color: #fce8e6;
+  color: #c5221f;
+  font-weight: 700;
+  border: 1px solid #d93025;
+}
+
+.closed {
+  background-color: #f1f3f4;
+  color: #5f6368;
+  font-weight: 700;
+  border: 1px solid #dadce0;
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "title": "Introduction to Google Cloud Platform",
+    "date": "2026-06-15T10:00:00Z",
+    "location": "GDG Cloud Bandung HQ",
+    "type": "Workshop",
+    "status": "Open",
+    "image": "/images/workshop.png",
+    "description": "Learn the basics of GCP, including Compute Engine, Cloud Storage, and BigQuery. Perfect for beginners!"
+  },
+  {
+    "id": "2",
+    "title": "Vertex AI: Building Generative AI Apps",
+    "date": "2026-06-20T14:00:00Z",
+    "location": "Online",
+    "type": "Online",
+    "status": "Open",
+    "image": "/images/online.png",
+    "description": "A deep dive into Vertex AI and how to integrate Gemini models into your applications."
+  },
+  {
+    "id": "3",
+    "title": "Cloud Native Architecture Patterns",
+    "date": "2026-06-25T09:00:00Z",
+    "location": "Digital Hub Bandung",
+    "type": "Talk",
+    "status": "Full",
+    "image": "/images/talk.png",
+    "description": "Expert talk on designing scalable and resilient cloud-native systems using microservices and Kubernetes."
+  },
+  {
+    "id": "4",
+    "title": "Kubernetes 101: Hands-on Lab",
+    "date": "2026-07-05T13:00:00Z",
+    "location": "TechSpace Bandung",
+    "type": "Workshop",
+    "status": "Closed",
+    "image": "/images/workshop.png",
+    "description": "Get hands-on experience with K8s. Deploy your first cluster and manage workloads like a pro."
+  },
+  {
+    "id": "5",
+    "title": "Serverless with Cloud Run",
+    "date": "2026-07-12T10:00:00Z",
+    "location": "GDG Cloud Bandung HQ",
+    "type": "Workshop",
+    "status": "Open",
+    "image": "/images/workshop.png",
+    "description": "Master serverless deployment with Google Cloud Run. Learn how to containerize and scale effortlessly."
+  },
+  {
+    "id": "6",
+    "title": "Future of Cloud Computing in 2026",
+    "date": "2026-07-20T18:30:00Z",
+    "location": "Online",
+    "type": "Talk",
+    "status": "Open",
+    "image": "/images/online.png",
+    "description": "Join our community experts for an evening discussion about the latest trends in cloud and AI."
+  }
+]
